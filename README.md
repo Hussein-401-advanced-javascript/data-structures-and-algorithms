@@ -5,7 +5,7 @@
 ## Table of contant:
 **challenges**  | **Links**
   -------------  | -------------
-  *arrayReverse* | [link](https://hussein-401-advanced-javascript.github.io/data-structures-and-algorithms/)
+  *arrayReverse* | [link](https://hussein-401-advanced-javascript.github.io/data-structures-and-algorithms/challenges/arrayReverse)
   
   -----------------------------------------------
   # Reverse an Array
