@@ -1,7 +1,7 @@
 # data-structures-and-algorithms
 # Code 401d4 challenges
 ## Description
-- This web site is about challenges that in ***401d4*** and I will put them in the table of contant below:
+- This web site is about challenges that in ***401d4*** and I will put them in the table of contant below
 ## Table of contant:
 **challenges**  | **Links**
   -------------  | -------------
