@@ -1,15 +1,16 @@
 # data-structures-and-algorithms
 # Code 401d4 challenges
 ## Description
-- This web site is about challenges that in ***401d4*** and I will put them in the table of contant below:
+- This web site is about challenges that in ***401d4*** and I will put them in the table of contant below
 ## Table of contant:
 **challenges**  | **Links**
   -------------  | -------------
-  *arrayReverse* | [link](https://hussein-401-advanced-javascript.github.io/data-structures-and-algorithms/challenges/)
-  *array-shift* | [link](https://hussein-401-advanced-javascript.github.io/data-structures-and-algorithms/challenges/)
+  *arrayReverse* | [link](https://github.com/Hussein-401-advanced-javascript/data-structures-and-algorithms/pull/2)
+  *array-shift* | [link](https://github.com/Hussein-401-advanced-javascript/data-structures-and-algorithms/pull/3)
+  *arrayReverse* | [link](https://github.com/Hussein-401-advanced-javascript/data-structures-and-algorithms/pull/5)
   
   -----------------------------------------------
-  # Reverse an Array
+  ## Reverse an Array
 - In the **Code Challenge: Class 01**(Reverse an Array) I will put a Function to handle an Array ***-Regardless of size and type of the array-***
 and I will **reverse** without utilizing any of the **built-in methods**
 ## Challenge
