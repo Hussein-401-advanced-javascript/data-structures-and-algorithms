@@ -1,8 +1,8 @@
 'use strict'
 function BinarySearch  (arr, key){
-    for (let i =0 ; i<= arr.lengt ; i++){
+    for (let i =0 ; i<= arr.length ; i++){
         if (arr[i] === key){
-            return 1;
+            return i;
         } 
        
     }
