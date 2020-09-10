@@ -8,7 +8,8 @@
   *arrayReverse* | [link](https://github.com/Hussein-401-advanced-javascript/data-structures-and-algorithms/pull/2)
   *array-shift* | [link](https://github.com/Hussein-401-advanced-javascript/data-structures-and-algorithms/pull/3)
   *arrayReverse* | [link](https://github.com/Hussein-401-advanced-javascript/data-structures-and-algorithms/pull/5)
-  
+  *LinkedList* | [link](https://github.com/Hussein-401-advanced-javascript/data-structures-and-algorithms/pull/7)
+
   -----------------------------------------------
   
 -----------------------------------------------
