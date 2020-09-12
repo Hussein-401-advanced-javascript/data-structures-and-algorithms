@@ -28,4 +28,3 @@ let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 BinarySearch(arr, 1)
 BinarySearch(arr, 111)
 
-// Time Complexity: O(logN)
