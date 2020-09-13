@@ -1,3 +1,7 @@
+const allLists = { // storing the lists inside the obj.
+
+};
+
 class Node{
     constructor(value){
       this.value = value;
@@ -26,15 +30,15 @@ class Node{
   
     includes(val){
       let nodeVal = this.head;
-      if(nodeVal.value === val ){
-        return true;
-      }else if (nodeVal.next === val){
-        return false;
-      }else{
-        return false;
-      }
+      while(nodeVal){
+        if(nodeVal.value == val){
+            return true;
+        }
+        nodeVal = nodeVal.next;
     }
-  
+    return false;
+  }
+
   
     toString(){
       let stringVal = this.head;
@@ -47,4 +51,10 @@ class Node{
   
     }
   }
+  
+allLists.Node = Node;
+allLists.LinkedList = Linkedlist; // inserting inside the empty obj.
+
+
+module.exports = allLists;
   
