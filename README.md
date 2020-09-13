@@ -9,6 +9,9 @@
   *array-shift* | [link](https://github.com/Hussein-401-advanced-javascript/data-structures-and-algorithms/pull/3)
   *arrayReverse* | [link](https://github.com/Hussein-401-advanced-javascript/data-structures-and-algorithms/pull/5)
   *LinkedList* | [link](https://github.com/Hussein-401-advanced-javascript/data-structures-and-algorithms/pull/7)
+  *ll-insertions* | [link](https://github.com/Hussein-401-advanced-javascript/data-structures-and-algorithms/pull/11)
+
+
 
   -----------------------------------------------
   

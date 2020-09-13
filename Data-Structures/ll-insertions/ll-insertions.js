@@ -1,8 +1,6 @@
+#!/usr/bin/env node
 'use strict';
-
-let LinkedList = require('../linkedList/linked-list.js');
-
-
+let LinkedList = require('../linked-list/linked-list')
 class Llinsertions extends LinkedList {
     append(value) {
         let newNode = new Node(value);
