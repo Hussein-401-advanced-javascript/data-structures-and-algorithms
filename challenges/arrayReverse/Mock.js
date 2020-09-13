@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-'use strict'
+'use strict';
 let fab = (num) => {
   let fabArr = [1, 1, 2];
   for (let i = 3; i <= num; i++) {
@@ -10,4 +10,4 @@ let fab = (num) => {
 
 console.log(fab(1));
 console.log(fab(5));
-console.log(fab(17))
+console.log(fab(17));

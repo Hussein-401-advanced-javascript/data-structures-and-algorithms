@@ -1,12 +1,12 @@
 #!/usr/bin/env node
-'use strict'
+'use strict';
 function insertShiftArray1() {
   let a = ['a', 'b', 'c', 'd'];
   a[Math.floor(a.length / 2)] = 'e';
-  console.log(a)
+  console.log(a);
 }
 
-insertShiftArray1()
+insertShiftArray1();
 
 function insertShiftArray(arr, val) {
   let index = Math.ceil(arr.length / 2);

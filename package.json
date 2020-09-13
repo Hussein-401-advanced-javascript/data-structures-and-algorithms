@@ -4,7 +4,8 @@
   "description": "- This web site is about challenges that in ***401d4*** and I will put them in the table of contant below: ## Table of contant: **challenges**  | **Links**   -------------  | -------------   *arrayReverse* | [link](https://hussein66253.github.io/reading-notes-401/class-01)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --verbose --coverage",
+    "lint": "eslint '**/*.js'"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/Hussein-401-advanced-javascript/data-structures-and-algorithms/issues"
   },
-  "homepage": "https://github.com/Hussein-401-advanced-javascript/data-structures-and-algorithms#readme"
+  "homepage": "https://github.com/Hussein-401-advanced-javascript/data-structures-and-algorithms#readme",
+  "dependencies": {
+    "eslint": "^7.9.0",
+    "jest": "^26.4.2"
+  }
 }
