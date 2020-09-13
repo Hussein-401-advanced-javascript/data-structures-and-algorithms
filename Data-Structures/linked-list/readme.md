@@ -6,4 +6,6 @@ Within your LinkedList class, include a head property. Upon instantiation, an em
 ## Approach & Efficiency
 -  using classes and method inside it to (insert/includes/toString) a linked list withe nodes 
 ## Solution
-![LinkedList](../../assets/LinkedList.PNG)
+![LinkedList](./assests/LinkedList.PNG)
+# BigO:
+ - time : **O(n)** 
