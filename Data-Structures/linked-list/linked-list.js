@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 'use strict';
-const allLists = { // storing the lists inside.
+// const allLists = { // storing the lists inside.
 
-};
+// };
 
 class Node {
   constructor(value) {
@@ -60,5 +60,5 @@ class Linkedlist {
 
 module.exports = {
   Node:Node,
-  Linkedlist:Linkedlist
+  Linkedlist:Linkedlist,
 };
