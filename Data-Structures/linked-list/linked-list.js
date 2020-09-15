@@ -54,8 +54,11 @@ class Linkedlist {
   }
 }
 
-allLists.Node = Node;
-allLists.LinkedList = Linkedlist; // inserting inside the empty obj.
+// allLists.Node = Node;
+// allLists.LinkedList = Linkedlist; // inserting inside the empty obj.
 
 
-module.exports = allLists;
+module.exports = {
+  Node:Node,
+  Linkedlist:Linkedlist
+};
