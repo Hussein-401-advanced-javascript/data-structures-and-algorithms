@@ -6,7 +6,7 @@
 - Approach & Efficiency
 creating 2 classes and inputing the methods through them.
 ## Big O
- - Time ==> **O(n)** 
+ - Time ==> **O(n)** because we are looping **n** time  
 
 ## Solution
 ![ll-kth-from-end](./assests/ll-kth-from-end.PNG)
