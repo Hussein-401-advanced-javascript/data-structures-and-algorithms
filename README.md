@@ -12,6 +12,6 @@
   *ll-insertions* | [link](https://github.com/Hussein-401-advanced-javascript/data-structures-and-algorithms/pull/11)
   *ll-kth-from-end* | [link](https://github.com/Hussein-401-advanced-javascript/data-structures-and-algorithms/pull/13)
   *ll-zip* | [link](https://github.com/Hussein-401-advanced-javascript/data-structures-and-algorithms/pull/15)
-
+  *stacksAndQueues* | [link](https://github.com/Hussein-401-advanced-javascript/data-structures-and-algorithms/pull/16)
   -----------------------------------------------
 
