@@ -4,7 +4,7 @@
   "description": "- This web site is about challenges that in ***401d4*** and I will put them in the table of contant below: ## Table of contant: **challenges**  | **Links**   -------------  | -------------   *arrayReverse* | [link](https://hussein66253.github.io/reading-notes-401/class-01)",
   "main": "index.js",
   "scripts": {
-    "test": "jest --verbose --coverage",
+    "test": "jest stacks-and-queues.test.js --verbose --coverage",
     "lint": "eslint '**/*.js'"
   },
   "repository": {
