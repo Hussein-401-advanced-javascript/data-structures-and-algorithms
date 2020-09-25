@@ -13,8 +13,7 @@ let multiBracketValidation = function (input) {
     for (let i = 0; i < bracketArr.length; i++) {
       if (bracketArr[i] === '(' || bracketArr[i] === '{' || bracketArr[i] === '[' ) {
         arr.push(bracketArr[i]);
-      }
-      else {
+      } else {
         let last = arr.pop();
         if (bracketArr[i] !== obj[last]) {
           return false;
