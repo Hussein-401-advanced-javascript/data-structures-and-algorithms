@@ -29,7 +29,7 @@ class Node {
       }
     }
   
-    peak(){
+    peek(){
       if(this.storage.length != 0){
         return this.top.value;
       }else{
@@ -72,4 +72,8 @@ class Node {
       return this.stack1.pop();
     }
   
+  }
+  module.exports = {
+    PseudoQueue,
+    Stack
   }

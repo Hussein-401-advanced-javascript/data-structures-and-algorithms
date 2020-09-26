@@ -34,7 +34,6 @@ class AnimalShelter {
     return this.storage[0];
   }
 }
-  
 let shelter = new AnimalShelter();
 shelter.enqueue({type : 'cat' , name : 'cat1'});
 shelter.enqueue({type : 'dog' , name : 'dog1'});
@@ -42,3 +41,6 @@ shelter.enqueue({type : 'dog' , name : 'dog3'});
 shelter.enqueue({type : 'cat' , name : 'cat2'});
 // shelter.dequeue({type : 'dog' , name : 'dog3'});
 shelter.dequeue({type : 'cat' , name : 'cat2'});
+module.exports = {
+  AnimalShelter
+};
