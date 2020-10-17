@@ -17,6 +17,16 @@ class Linkedlist {
     this.head = null;
 
   }
+  getBykeyName(val) {
+    let currentNode = this.head;
+    while (currentNode) {
+      if (Object.keys(currentNode.value)[0] == val) {
+        return currentNode.value[val]
+      }
+      currentNode = currentNode.next
+    }
+    return { 'Error': 'NotExist' }
+  }
   insert(val) {
     let node = new Node(val);
     if (!this.head) {
@@ -31,17 +41,34 @@ class Linkedlist {
 
 
   includes(val) {
-    let nodeVal = this.head;
-    while (nodeVal) {
-      if (nodeVal.value == val) {
+    let currentNode = this.head;
+    while (currentNode) {
+      if (typeof currentNode.value === 'object') {
+        if (Object.keys(currentNode.value)[0] == val) {
+          return true
+        }
+      } else if (currentNode.value == val) {
         return true;
       }
-      nodeVal = nodeVal.next;
+      currentNode = currentNode.next;
     }
     return false;
   }
 
+  append(value) {
+    let newNode = new Node(value);
 
+    if (!this.head) {
+      this.head = newNode;
+      return this;
+    }
+    let node1 = this.head;
+    while (node1.next) {
+      node1 = node1.next;
+    }
+    node1.next = newNode;
+    return this;
+  }
   toString() {
     let stringVal = this.head;
     let allVal = `{ ${stringVal.value} }`;
@@ -59,6 +86,6 @@ class Linkedlist {
 
 
 module.exports = {
-  Node:Node,
-  Linkedlist:Linkedlist,
+  Node: Node,
+  Linkedlist: Linkedlist,
 };
