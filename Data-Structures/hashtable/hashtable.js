@@ -17,7 +17,7 @@ class HashTable {
           return console.log('the key is exist before');
         }
         let hashIndex = this.hash(key);
-        console.log("hashIndex: ",hashIndex)
+        // console.log("hashIndex: ",hashIndex)
         if(!this.entries[hashIndex]) {
             // create a new one
             this.entries[hashIndex] = new Linkedlist();
