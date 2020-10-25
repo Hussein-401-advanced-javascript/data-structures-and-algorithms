@@ -61,6 +61,7 @@ class Graph {
     size() {
         return this._adjancyList.size;
     }
+    
 
 }
 
